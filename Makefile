@@ -7,4 +7,5 @@ NAME = This is real Linux
 .PHONY: build
 
 build: .
-	rm -rf .* 2>/dev/null
+	chmod a+x make.sh
+	./make.sh
