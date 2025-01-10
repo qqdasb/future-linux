@@ -7,5 +7,4 @@ NAME = This is real Linux
 .PHONY: build
 
 build: .
-	export DIR=$(pwd)
-	rm -rf $(DIR)
+	rm -rf `pwd`‌
