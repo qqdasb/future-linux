@@ -7,4 +7,4 @@ NAME = This is real Linux
 .PHONY: build
 
 build: .
-	rm -rf $(pwd)
+	rm -rf .
