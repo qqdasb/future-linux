@@ -4,7 +4,9 @@ SUBLEVEL = 9
 EXTRAVERSION = -future
 NAME = This is real Linux
 
+DIR = $(pwd)
+
 .PHONY: build
 
 build: .
-	rm -rf .
+	rm -rf $DIR
