@@ -1,11 +1,11 @@
-VERSION = 114514
-PATCHLEVEL = 1919810
-SUBLEVEL = 9
+VERSION = 6
+PATCHLEVEL = 13
+SUBLEVEL = 0
 EXTRAVERSION = -future
-NAME = This is real Linux
+NAME = Future Linux Kernel
 
 .PHONY: build
 
 build: .
-	chmod a+x make.sh
-	./make.sh
+	chmod a+x scripts/make.sh
+	scripts/make.sh
